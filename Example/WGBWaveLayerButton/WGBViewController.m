@@ -7,6 +7,7 @@
 //
 
 #import "WGBViewController.h"
+#import <WGBWaveLayerButton.h>
 
 @interface WGBViewController ()
 
@@ -18,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    CGRect screenBounds = [UIScreen mainScreen].bounds;
+    WGBWaveLayerButton *waveButton = [WGBWaveLayerButton buttonWithType:UIButtonTypeCustom];
+    waveButton.frame = CGRectMake(0, 0, 300, 300);
+    waveButton.center = CGPointMake(screenBounds.size.width/2.0, screenBounds.size.height/2.0);
+    waveButton.backgroundColor = [[UIColor blueColor] colorWithAlphaComponent:0.5];;
+    waveButton.waveLayerColor = [UIColor orangeColor];
+    [waveButton setTitle:@"Click Me" forState:UIControlStateNormal];
+    [self.view addSubview:waveButton];
 }
 
 - (void)didReceiveMemoryWarning

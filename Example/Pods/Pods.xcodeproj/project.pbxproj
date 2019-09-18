@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15B91CF239F224E9651BE7B5BD88B280 /* Pods-WGBWaveLayerButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A308D33D5CB0F9E88FA3FD1F40B6A7 /* Pods-WGBWaveLayerButton_Example-dummy.m */; };
+		3C7A606AEF4E540FC2582B1B4FBF5E32 /* Pods-WGBWaveLayerButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6765699DD96E8636453AC817602ACD30 /* Pods-WGBWaveLayerButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FD74D4619BA3EAC86F01E815020B28F /* WGBWaveLayerButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C80285F9B637F65E1CAFB034671364A /* WGBWaveLayerButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE6F0C1B038C87389A3BDEDFC645EF3 /* Pods-WGBWaveLayerButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6917F92CFCD916E1E567FCFAA03C895 /* Pods-WGBWaveLayerButton_Tests-dummy.m */; };
+		751205ED1CF40CE06E31C5EC1E32F964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		93E3EADEB9193F01D1B5321FC5FF3812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A8AF226238D106D25103D5533249AB2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ABEE2972079E0511635A86127F0C4BB1 /* WGBWaveLayerButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 313D7EF368B09376BDFD29B9F5C4103B /* WGBWaveLayerButton-dummy.m */; };
+		AEADFC726EAE6D8E81A9201BB8DAB12D /* Pods-WGBWaveLayerButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B25DDA5F5CFE9BACAAEF5B89EF104298 /* Pods-WGBWaveLayerButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDC964E86A28C42325223F95BF6B147F /* WGBWaveLayerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B74F1378B83FF360416AD78B8E389 /* WGBWaveLayerButton.m */; };
+		FA3EC74B3F89EFB3CB3F31F07D1EA257 /* WGBWaveLayerButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A6EE6D8F8061820B2D0AD106DA388E /* WGBWaveLayerButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4458EE55D54C16A938F16A66D2A429CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290F9915E226405E80C717DB84C94BF2;
+			remoteInfo = WGBWaveLayerButton;
+		};
+		6F4B0D49BC749931AB455C247C0B07D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78360C46C8A89EDEB5D68B77AFB1DD27;
+			remoteInfo = "Pods-WGBWaveLayerButton_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060A12EC13F61BC2CB97C2D8A0F76441 /* Pods-WGBWaveLayerButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WGBWaveLayerButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28F7FFFEBFFC083E8AB286674B06DAB7 /* Pods-WGBWaveLayerButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBWaveLayerButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		313D7EF368B09376BDFD29B9F5C4103B /* WGBWaveLayerButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WGBWaveLayerButton-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33E70B7FE951EFED8492A26998753CD7 /* WGBWaveLayerButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WGBWaveLayerButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34914FCF09F8F993DBFD290EFB50A542 /* Pods_WGBWaveLayerButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WGBWaveLayerButton_Example.framework; path = "Pods-WGBWaveLayerButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37546CBF65415B728DDDBDB8176B1658 /* Pods-WGBWaveLayerButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WGBWaveLayerButton_Example.modulemap"; sourceTree = "<group>"; };
+		38AE1A588C5390490E49587DD34DD630 /* WGBWaveLayerButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WGBWaveLayerButton.xcconfig; sourceTree = "<group>"; };
+		48F88E2EFAEBABA34A0A7D0251F472CC /* Pods-WGBWaveLayerButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBWaveLayerButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57A308D33D5CB0F9E88FA3FD1F40B6A7 /* Pods-WGBWaveLayerButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WGBWaveLayerButton_Example-dummy.m"; sourceTree = "<group>"; };
+		589B2ED116A70274CF2709304B01C719 /* Pods_WGBWaveLayerButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WGBWaveLayerButton_Tests.framework; path = "Pods-WGBWaveLayerButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DCDEB25733B3C2351008E271A7DD20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6765699DD96E8636453AC817602ACD30 /* Pods-WGBWaveLayerButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WGBWaveLayerButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		67849C7CB580F3C57CE7F4D5BC5F0DDB /* Pods-WGBWaveLayerButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WGBWaveLayerButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7AC88F198BA3B515B2CD36C56BD0707B /* Pods-WGBWaveLayerButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBWaveLayerButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		80F1F0D32087C97B26D35FB37153B1BD /* WGBWaveLayerButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WGBWaveLayerButton-prefix.pch"; sourceTree = "<group>"; };
+		955724D77919B6F20DA263634B7D9088 /* Pods-WGBWaveLayerButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBWaveLayerButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		97A6EE6D8F8061820B2D0AD106DA388E /* WGBWaveLayerButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WGBWaveLayerButton.h; path = WGBWaveLayerButton/Classes/WGBWaveLayerButton.h; sourceTree = "<group>"; };
+		9B4AB817610BE56A6F0CC569388D7895 /* Pods-WGBWaveLayerButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBWaveLayerButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9C80285F9B637F65E1CAFB034671364A /* WGBWaveLayerButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WGBWaveLayerButton-umbrella.h"; sourceTree = "<group>"; };
+		9D2DE89E903AF8AFCEA0550F7122BA3A /* Pods-WGBWaveLayerButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBWaveLayerButton_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A53200FC253CDF898CC29DF1A2405CA2 /* Pods-WGBWaveLayerButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WGBWaveLayerButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B25DDA5F5CFE9BACAAEF5B89EF104298 /* Pods-WGBWaveLayerButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WGBWaveLayerButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C1B7DAD032F39D730A66487EE73B76D4 /* Pods-WGBWaveLayerButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBWaveLayerButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C56BEFC080FC669D18C9F0CB1A27A034 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D43A8FA6436BC19EAA061267AACE355F /* WGBWaveLayerButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WGBWaveLayerButton.modulemap; sourceTree = "<group>"; };
+		D6917F92CFCD916E1E567FCFAA03C895 /* Pods-WGBWaveLayerButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WGBWaveLayerButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		DB6B74F1378B83FF360416AD78B8E389 /* WGBWaveLayerButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WGBWaveLayerButton.m; path = WGBWaveLayerButton/Classes/WGBWaveLayerButton.m; sourceTree = "<group>"; };
+		DBDF86769C5BB885C2412DC7D9AE420F /* Pods-WGBWaveLayerButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBWaveLayerButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		ECB69317EBA2E78DFD93C839DCBE812E /* WGBWaveLayerButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WGBWaveLayerButton-Info.plist"; sourceTree = "<group>"; };
+		F2C835616752C606AACDCD2DB1F6AB7A /* Pods-WGBWaveLayerButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WGBWaveLayerButton_Tests.modulemap"; sourceTree = "<group>"; };
+		FF74E6D77D128374A9B666218CF77359 /* WGBWaveLayerButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGBWaveLayerButton.framework; path = WGBWaveLayerButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42F3D96734CDAC7E21E932B82218A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E3EADEB9193F01D1B5321FC5FF3812 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD2F1880B54551DFC94FBA2C468846D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AF226238D106D25103D5533249AB2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7AFE42FFD76AD132C32A8E7683FA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751205ED1CF40CE06E31C5EC1E32F964 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23E05B33FF658540BDACF91D4733E77C /* WGBWaveLayerButton */ = {
+			isa = PBXGroup;
+			children = (
+				97A6EE6D8F8061820B2D0AD106DA388E /* WGBWaveLayerButton.h */,
+				DB6B74F1378B83FF360416AD78B8E389 /* WGBWaveLayerButton.m */,
+				3E1F364EB45B262B2492A0110ECFE6B1 /* Pod */,
+				4AABC94E0591DEFB903D21F765B398D4 /* Support Files */,
+			);
+			name = WGBWaveLayerButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		25EA4973FBBE09E0E93F3DF60633EA31 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1AA44B53FEB5E753016E0495B4F9A25 /* Pods-WGBWaveLayerButton_Example */,
+				B15ADCC4A1C26AB8BDC026693D10C097 /* Pods-WGBWaveLayerButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E1F364EB45B262B2492A0110ECFE6B1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C56BEFC080FC669D18C9F0CB1A27A034 /* LICENSE */,
+				63DCDEB25733B3C2351008E271A7DD20 /* README.md */,
+				33E70B7FE951EFED8492A26998753CD7 /* WGBWaveLayerButton.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4AABC94E0591DEFB903D21F765B398D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D43A8FA6436BC19EAA061267AACE355F /* WGBWaveLayerButton.modulemap */,
+				38AE1A588C5390490E49587DD34DD630 /* WGBWaveLayerButton.xcconfig */,
+				313D7EF368B09376BDFD29B9F5C4103B /* WGBWaveLayerButton-dummy.m */,
+				ECB69317EBA2E78DFD93C839DCBE812E /* WGBWaveLayerButton-Info.plist */,
+				80F1F0D32087C97B26D35FB37153B1BD /* WGBWaveLayerButton-prefix.pch */,
+				9C80285F9B637F65E1CAFB034671364A /* WGBWaveLayerButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WGBWaveLayerButton";
+			sourceTree = "<group>";
+		};
+		9DAEC08415D1513BA8A5E530CD44D76E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34914FCF09F8F993DBFD290EFB50A542 /* Pods_WGBWaveLayerButton_Example.framework */,
+				589B2ED116A70274CF2709304B01C719 /* Pods_WGBWaveLayerButton_Tests.framework */,
+				FF74E6D77D128374A9B666218CF77359 /* WGBWaveLayerButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B15ADCC4A1C26AB8BDC026693D10C097 /* Pods-WGBWaveLayerButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2C835616752C606AACDCD2DB1F6AB7A /* Pods-WGBWaveLayerButton_Tests.modulemap */,
+				67849C7CB580F3C57CE7F4D5BC5F0DDB /* Pods-WGBWaveLayerButton_Tests-acknowledgements.markdown */,
+				C1B7DAD032F39D730A66487EE73B76D4 /* Pods-WGBWaveLayerButton_Tests-acknowledgements.plist */,
+				D6917F92CFCD916E1E567FCFAA03C895 /* Pods-WGBWaveLayerButton_Tests-dummy.m */,
+				DBDF86769C5BB885C2412DC7D9AE420F /* Pods-WGBWaveLayerButton_Tests-Info.plist */,
+				B25DDA5F5CFE9BACAAEF5B89EF104298 /* Pods-WGBWaveLayerButton_Tests-umbrella.h */,
+				7AC88F198BA3B515B2CD36C56BD0707B /* Pods-WGBWaveLayerButton_Tests.debug.xcconfig */,
+				9B4AB817610BE56A6F0CC569388D7895 /* Pods-WGBWaveLayerButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-WGBWaveLayerButton_Tests";
+			path = "Target Support Files/Pods-WGBWaveLayerButton_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DA4E4D592069CAED22C826BFB640670D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9DAEC08415D1513BA8A5E530CD44D76E /* Products */,
+				25EA4973FBBE09E0E93F3DF60633EA31 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA4E4D592069CAED22C826BFB640670D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23E05B33FF658540BDACF91D4733E77C /* WGBWaveLayerButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F1AA44B53FEB5E753016E0495B4F9A25 /* Pods-WGBWaveLayerButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				37546CBF65415B728DDDBDB8176B1658 /* Pods-WGBWaveLayerButton_Example.modulemap */,
+				060A12EC13F61BC2CB97C2D8A0F76441 /* Pods-WGBWaveLayerButton_Example-acknowledgements.markdown */,
+				28F7FFFEBFFC083E8AB286674B06DAB7 /* Pods-WGBWaveLayerButton_Example-acknowledgements.plist */,
+				57A308D33D5CB0F9E88FA3FD1F40B6A7 /* Pods-WGBWaveLayerButton_Example-dummy.m */,
+				A53200FC253CDF898CC29DF1A2405CA2 /* Pods-WGBWaveLayerButton_Example-frameworks.sh */,
+				9D2DE89E903AF8AFCEA0550F7122BA3A /* Pods-WGBWaveLayerButton_Example-Info.plist */,
+				6765699DD96E8636453AC817602ACD30 /* Pods-WGBWaveLayerButton_Example-umbrella.h */,
+				48F88E2EFAEBABA34A0A7D0251F472CC /* Pods-WGBWaveLayerButton_Example.debug.xcconfig */,
+				955724D77919B6F20DA263634B7D9088 /* Pods-WGBWaveLayerButton_Example.release.xcconfig */,
+			);
+			name = "Pods-WGBWaveLayerButton_Example";
+			path = "Target Support Files/Pods-WGBWaveLayerButton_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		497DB59B2AB2D16950A7AD49072795A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD74D4619BA3EAC86F01E815020B28F /* WGBWaveLayerButton-umbrella.h in Headers */,
+				FA3EC74B3F89EFB3CB3F31F07D1EA257 /* WGBWaveLayerButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A59C4F6EC872630DF3DF54FD7C2A226 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEADFC726EAE6D8E81A9201BB8DAB12D /* Pods-WGBWaveLayerButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71061ED566ABB8031C410F5DBC102A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7A606AEF4E540FC2582B1B4FBF5E32 /* Pods-WGBWaveLayerButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		290F9915E226405E80C717DB84C94BF2 /* WGBWaveLayerButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94654B9385C88CA730F1BB46A30DDB98 /* Build configuration list for PBXNativeTarget "WGBWaveLayerButton" */;
+			buildPhases = (
+				497DB59B2AB2D16950A7AD49072795A7 /* Headers */,
+				1341C8DE76F8374851FC852F5DE13C4F /* Sources */,
+				ED7AFE42FFD76AD132C32A8E7683FA34 /* Frameworks */,
+				66ABBB440DFB47432CB47CDA74706F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGBWaveLayerButton;
+			productName = WGBWaveLayerButton;
+			productReference = FF74E6D77D128374A9B666218CF77359 /* WGBWaveLayerButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60AB2A881AC375C509277094E7BB3BEB /* Pods-WGBWaveLayerButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C3B6D50ED3400B9D21AA28903658A15 /* Build configuration list for PBXNativeTarget "Pods-WGBWaveLayerButton_Tests" */;
+			buildPhases = (
+				6A59C4F6EC872630DF3DF54FD7C2A226 /* Headers */,
+				CE7CB1DB00C01E8217ECA52285C9C9A7 /* Sources */,
+				C42F3D96734CDAC7E21E932B82218A2C /* Frameworks */,
+				91124574DC083DCBFC8A803B2D31B95F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1984923EB4D4556B7CECEB44D33986 /* PBXTargetDependency */,
+			);
+			name = "Pods-WGBWaveLayerButton_Tests";
+			productName = "Pods-WGBWaveLayerButton_Tests";
+			productReference = 589B2ED116A70274CF2709304B01C719 /* Pods_WGBWaveLayerButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78360C46C8A89EDEB5D68B77AFB1DD27 /* Pods-WGBWaveLayerButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914D4A8952F6224555E1083DAAD2E05C /* Build configuration list for PBXNativeTarget "Pods-WGBWaveLayerButton_Example" */;
+			buildPhases = (
+				E71061ED566ABB8031C410F5DBC102A9 /* Headers */,
+				55458DC8E4F689FCD639371289C5A291 /* Sources */,
+				DDD2F1880B54551DFC94FBA2C468846D /* Frameworks */,
+				D5867B2D907F3FDCC92F477DE80099CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E5FA10BDC06BF1718E59F401DC9DD63 /* PBXTargetDependency */,
+			);
+			name = "Pods-WGBWaveLayerButton_Example";
+			productName = "Pods-WGBWaveLayerButton_Example";
+			productReference = 34914FCF09F8F993DBFD290EFB50A542 /* Pods_WGBWaveLayerButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9DAEC08415D1513BA8A5E530CD44D76E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78360C46C8A89EDEB5D68B77AFB1DD27 /* Pods-WGBWaveLayerButton_Example */,
+				60AB2A881AC375C509277094E7BB3BEB /* Pods-WGBWaveLayerButton_Tests */,
+				290F9915E226405E80C717DB84C94BF2 /* WGBWaveLayerButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66ABBB440DFB47432CB47CDA74706F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91124574DC083DCBFC8A803B2D31B95F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5867B2D907F3FDCC92F477DE80099CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1341C8DE76F8374851FC852F5DE13C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEE2972079E0511635A86127F0C4BB1 /* WGBWaveLayerButton-dummy.m in Sources */,
+				CDC964E86A28C42325223F95BF6B147F /* WGBWaveLayerButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55458DC8E4F689FCD639371289C5A291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B91CF239F224E9651BE7B5BD88B280 /* Pods-WGBWaveLayerButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7CB1DB00C01E8217ECA52285C9C9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE6F0C1B038C87389A3BDEDFC645EF3 /* Pods-WGBWaveLayerButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C1984923EB4D4556B7CECEB44D33986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WGBWaveLayerButton_Example";
+			target = 78360C46C8A89EDEB5D68B77AFB1DD27 /* Pods-WGBWaveLayerButton_Example */;
+			targetProxy = 6F4B0D49BC749931AB455C247C0B07D2 /* PBXContainerItemProxy */;
+		};
+		9E5FA10BDC06BF1718E59F401DC9DD63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WGBWaveLayerButton;
+			target = 290F9915E226405E80C717DB84C94BF2 /* WGBWaveLayerButton */;
+			targetProxy = 4458EE55D54C16A938F16A66D2A429CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B237C0CE3252BA752EA1DEADC1A153E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F88E2EFAEBABA34A0A7D0251F472CC /* Pods-WGBWaveLayerButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WGBWaveLayerButton_Example/Pods-WGBWaveLayerButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WGBWaveLayerButton_Example/Pods-WGBWaveLayerButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		288C0AAC21787E8BAA7F1FBAEF0916BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AE1A588C5390490E49587DD34DD630 /* WGBWaveLayerButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WGBWaveLayerButton/WGBWaveLayerButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WGBWaveLayerButton/WGBWaveLayerButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WGBWaveLayerButton/WGBWaveLayerButton.modulemap";
+				PRODUCT_MODULE_NAME = WGBWaveLayerButton;
+				PRODUCT_NAME = WGBWaveLayerButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6146104609A4448B1D243E5A09F51A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC88F198BA3B515B2CD36C56BD0707B /* Pods-WGBWaveLayerButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WGBWaveLayerButton_Tests/Pods-WGBWaveLayerButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WGBWaveLayerButton_Tests/Pods-WGBWaveLayerButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A2893C443F087D13254424828D6CBC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AE1A588C5390490E49587DD34DD630 /* WGBWaveLayerButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WGBWaveLayerButton/WGBWaveLayerButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WGBWaveLayerButton/WGBWaveLayerButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WGBWaveLayerButton/WGBWaveLayerButton.modulemap";
+				PRODUCT_MODULE_NAME = WGBWaveLayerButton;
+				PRODUCT_NAME = WGBWaveLayerButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E240EAF13577A385A65B28139BFF7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 955724D77919B6F20DA263634B7D9088 /* Pods-WGBWaveLayerButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WGBWaveLayerButton_Example/Pods-WGBWaveLayerButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WGBWaveLayerButton_Example/Pods-WGBWaveLayerButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6506E1901B80DB0C0B79F6E5F81A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4AB817610BE56A6F0CC569388D7895 /* Pods-WGBWaveLayerButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WGBWaveLayerButton_Tests/Pods-WGBWaveLayerButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WGBWaveLayerButton_Tests/Pods-WGBWaveLayerButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C3B6D50ED3400B9D21AA28903658A15 /* Build configuration list for PBXNativeTarget "Pods-WGBWaveLayerButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6146104609A4448B1D243E5A09F51A65 /* Debug */,
+				F6506E1901B80DB0C0B79F6E5F81A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914D4A8952F6224555E1083DAAD2E05C /* Build configuration list for PBXNativeTarget "Pods-WGBWaveLayerButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B237C0CE3252BA752EA1DEADC1A153E /* Debug */,
+				9E240EAF13577A385A65B28139BFF7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94654B9385C88CA730F1BB46A30DDB98 /* Build configuration list for PBXNativeTarget "WGBWaveLayerButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2893C443F087D13254424828D6CBC6 /* Debug */,
+				288C0AAC21787E8BAA7F1FBAEF0916BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

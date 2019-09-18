@@ -1,0 +1,16 @@
+PODS:
+  - WGBWaveLayerButton (1.0.0)
+
+DEPENDENCIES:
+  - WGBWaveLayerButton (from `../`)
+
+EXTERNAL SOURCES:
+  WGBWaveLayerButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WGBWaveLayerButton: f90b0e8abc7a5b51750d2b5dc1e7a41342c9d55f
+
+PODFILE CHECKSUM: c03b85e62e6675916dcac3158c46e4c3a5c04339
+
+COCOAPODS: 1.7.5

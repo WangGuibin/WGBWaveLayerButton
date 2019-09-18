@@ -1,0 +1,6 @@
+framework module Pods_WGBWaveLayerButton_Tests {
+  umbrella header "Pods-WGBWaveLayerButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
