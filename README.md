@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/Used-welcome%20!-brightgreen.svg?colorA=a0cd34">
 </p>
 ## Example
-![](./Example.gif)
+![](https://github.com/WangGuibin/WGBWaveLayerButton/blob/master/Example.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
