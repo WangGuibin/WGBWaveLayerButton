@@ -24,10 +24,14 @@
     waveButton.frame = CGRectMake(0, 0, 300, 100);
     waveButton.center = CGPointMake(screenBounds.size.width/2.0, 110);
     waveButton.backgroundColor = [[UIColor blueColor] colorWithAlphaComponent:0.5];;
-    waveButton.waveLayerColor = [UIColor orangeColor];
+    waveButton.waveLayerColor = [UIColor orangeColor];//设置波纹的颜色
     [waveButton setTitle:@"Click Me" forState:UIControlStateNormal];
     [self.view addSubview:waveButton];
-    
+    /*
+     了解 `PlistBuddy`的使用先 再去观看脚本的编写
+     http://shaojunxiao.com/2017/03/23/%E4%BD%BF%E7%94%A8PlistBuddy%E4%BF%AE%E6%94%B9info-plist%E6%96%87%E4%BB%B6/
+     https://bqlin.github.io/iOS/PlistBuddy%20%E4%BD%BF%E7%94%A8/
+     */
     // 在app里获取git提交记录 参考学习https://github.com/y500/GetGitInfo
     NSDictionary *infoDic = [[NSBundle mainBundle] infoDictionary];
 
