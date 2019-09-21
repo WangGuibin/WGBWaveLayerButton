@@ -51,12 +51,6 @@
     UILabel *buildTimeLabel = [self createLabelWithOffsetY:offsetY];
     buildTimeLabel.text = [NSString stringWithFormat:@"本次编译时间：%@", [infoDic objectForKey:@"BuildTime"]];
    
-    offsetY = CGRectGetMaxY(buildTimeLabel.frame) + 20;
-    UITextView *textView = [[UITextView alloc] initWithFrame:CGRectMake(30, offsetY, self.view.bounds.size.width - 60 , 200)];
-    [self.view addSubview: textView];
-    
-    textView.editable = NO;
-    textView.text = [NSString stringWithFormat:@"Git提交日志：%@", [infoDic objectForKey:@"GitLog"]];
 
 }
 
