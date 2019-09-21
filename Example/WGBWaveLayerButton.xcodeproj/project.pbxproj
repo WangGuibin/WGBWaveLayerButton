@@ -38,13 +38,13 @@
 
 /* Begin PBXFileReference section */
 		18335B13B709A2CEF3BC6A55 /* Pods_WGBWaveLayerButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WGBWaveLayerButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22958DA3F1DBC9F9234D2A65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		22958DA3F1DBC9F9234D2A65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2B345136A1BD553812D82A3D /* Pods-WGBWaveLayerButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGBWaveLayerButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WGBWaveLayerButton_Tests/Pods-WGBWaveLayerButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WGBWaveLayerButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGBWaveLayerButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* WGBWaveLayerButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WGBWaveLayerButton-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* WGBWaveLayerButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WGBWaveLayerButton-Prefix.pch"; sourceTree = "<group>"; };
@@ -59,9 +59,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		675E79F795BC7CB391C6825D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		675E79F795BC7CB391C6825D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		79EECE0445E68CDE03DED2C2 /* WGBWaveLayerButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WGBWaveLayerButton.podspec; path = ../WGBWaveLayerButton.podspec; sourceTree = "<group>"; };
+		79EECE0445E68CDE03DED2C2 /* WGBWaveLayerButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WGBWaveLayerButton.podspec; path = ../WGBWaveLayerButton.podspec; sourceTree = "<group>"; };
 		84B71B1E184DD57F789ABF93 /* Pods-WGBWaveLayerButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGBWaveLayerButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-WGBWaveLayerButton_Tests/Pods-WGBWaveLayerButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		864C66A7CE08333E9C331DDD /* Pods-WGBWaveLayerButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGBWaveLayerButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-WGBWaveLayerButton_Example/Pods-WGBWaveLayerButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				2B345136A1BD553812D82A3D /* Pods-WGBWaveLayerButton_Tests.debug.xcconfig */,
 				84B71B1E184DD57F789ABF93 /* Pods-WGBWaveLayerButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,7 +159,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* WGBWaveLayerButton-Info.plist */,
+				6003F595195388D20070C39A /* Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* WGBWaveLayerButton-Prefix.pch */,
@@ -209,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				19F44642E4776AD98F636875 /* [CP] Embed Pods Frameworks */,
+				04D32C0923361D0200CD551E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -295,6 +295,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		04D32C0923361D0200CD551E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#最后一次提交的SHA\ngit_version=$(git log -1 --format=\"%h\")\n\n#当前的分支\ngit_branch=$(git symbolic-ref --short -q HEAD)\n\n#最后一次提交的作者\ngit_last_commit_user=$(git log -1 --pretty=format:'%an')\n\n#最后一次提交的时间\ngit_last_commit_date=$(git log -1 --format='%cd')\n\n#编译时间\nbuild_time=$(date)\n\ninfo_plist=\"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_FOLDER_PATH}/Info.plist\"\n/usr/libexec/PlistBuddy -c \"Set :'GitCommitSHA'       '${git_version}'\"                \"${info_plist}\"\n/usr/libexec/PlistBuddy -c \"Set :'GitCommitBranch'    '${git_branch}'\"                 \"${info_plist}\"\n/usr/libexec/PlistBuddy -c \"Set :'GitCommitUser'      '${git_last_commit_user}'\"       \"${info_plist}\"\n/usr/libexec/PlistBuddy -c \"Set :'GitCommitDate'      '${git_last_commit_date}'\"       \"${info_plist}\"\n/usr/libexec/PlistBuddy -c \"Set :'BuildTime'          '${build_time}'\"                 \"${info_plist}\"\n";
+		};
 		0CCD08A08A71DB4950130C4B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,13 +511,15 @@
 			baseConfigurationReference = 864C66A7CE08333E9C331DDD /* Pods-WGBWaveLayerButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WGBWaveLayerButton/WGBWaveLayerButton-Prefix.pch";
-				INFOPLIST_FILE = "WGBWaveLayerButton/WGBWaveLayerButton-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/WGBWaveLayerButton/Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -510,13 +529,15 @@
 			baseConfigurationReference = C33F382A5B3266108713E61A /* Pods-WGBWaveLayerButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WGBWaveLayerButton/WGBWaveLayerButton-Prefix.pch";
-				INFOPLIST_FILE = "WGBWaveLayerButton/WGBWaveLayerButton-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/WGBWaveLayerButton/Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
